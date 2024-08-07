@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link href="resources/ol-geocoder.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control > * {
+            background-color: #f8f8f8!important;
+            color: #444444!important;
+            border-radius: 0px;
+        }
+        .ol-attribution a, .gcd-gl-input::placeholder, .search-layer-input-search::placeholder {
+            color: #444444!important;
+        }
+        .search-layer-input-search {
+            background-color: #f8f8f8!important;
+        }
+        .ol-control > *:focus, .ol-control >*:hover {
+            background-color: rgba(248, 248, 248, 0.7)!important;
+        } 
+        .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 2px !important;
+        } 
+        </style>
+
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title>CMLR - Frentes Mecanizadas</title>
+    </head>
+    <body>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="resources/polyfills.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="resources/ol-geocoder.js"></script>
+        <script src="layers/RHIX_1.js"></script><script src="layers/FrentesMecanizadasRHIX_2.js"></script><script src="layers/RHVIeVIII_3.js"></script><script src="layers/FrentesMecanizadasRHVIeVIII_4.js"></script><script src="layers/RHV_5.js"></script><script src="layers/FrentesMecanizadasRHV_6.js"></script><script src="layers/RHIVeVII_7.js"></script><script src="layers/FrentesMecanizadasRHIVeVII_8.js"></script><script src="layers/RHIII_9.js"></script><script src="layers/FrentesMecanizadasRHIII_10.js"></script><script src="layers/RHII_11.js"></script><script src="layers/RHI_12.js"></script><script src="layers/FrentesMecanizadasRHIeII_13.js"></script>
+        <script src="styles/RHIX_1_style.js"></script><script src="styles/FrentesMecanizadasRHIX_2_style.js"></script><script src="styles/RHVIeVIII_3_style.js"></script><script src="styles/FrentesMecanizadasRHVIeVIII_4_style.js"></script><script src="styles/RHV_5_style.js"></script><script src="styles/FrentesMecanizadasRHV_6_style.js"></script><script src="styles/RHIVeVII_7_style.js"></script><script src="styles/FrentesMecanizadasRHIVeVII_8_style.js"></script><script src="styles/RHIII_9_style.js"></script><script src="styles/FrentesMecanizadasRHIII_10_style.js"></script><script src="styles/RHII_11_style.js"></script><script src="styles/RHI_12_style.js"></script><script src="styles/FrentesMecanizadasRHIeII_13_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>
+    </body>
+</html>
